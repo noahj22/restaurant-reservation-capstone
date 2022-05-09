@@ -1,0 +1,112 @@
+header {
+    background-color: rgb(124, 149, 171, 0.9);
+    max-height: 20em;
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5em;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    margin-bottom: 1em;
+  }
+  @keyframes slideinColor {
+    from {
+      color: rgb(124, 149, 171);
+    }
+  
+    to {
+      color: rgb(25, 25, 79);
+    }
+  }
+  @keyframes slidein {
+    from {
+      margin-top: -4em;
+      height: 0%;
+      color: rgb(124, 149, 171);
+    }
+  
+    to {
+      margin-bottom: 0%;
+      height: 100%;
+      color: rgb(25, 25, 79);
+    }
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    width: 50%;
+  }
+  li {
+    flex: 1;
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 4em;
+  }
+  
+  .buttonDiv {
+    margin-top: 0.5em;
+    flex: 1;
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Link2 {
+    text-decoration: none;
+    color: rgb(25, 25, 79);
+    text-align: center;
+    margin: 0;
+    flex: 1;
+  }
+  .Link {
+    text-decoration: none;
+    color: rgb(25, 25, 79);
+    animation-duration: 1.5s;
+    animation-name: slideinColor;
+    text-align: center;
+    margin: 0;
+    max-width: 8em;
+    flex: 1;
+  }
+  .Link:hover {
+    background-color: rgba(65, 65, 161, 0.1);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .button {
+    max-width: 7em;
+    border: none;
+    background-color: rgb(92, 125, 157);
+    color: white;
+    padding: 0.5em;
+  }
+  .button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+  }
+  
+  @media all and (max-width: 900px) {
+    /* ul {
+      flex-direction: column;
+    } */
+    li {
+      margin: 0.5em;
+      padding-right: 4em;
+    }
+  }

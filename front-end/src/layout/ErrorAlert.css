@@ -1,0 +1,12 @@
+.error {
+    background-color: rgba(207, 207, 232, 0.845);
+    padding: 0.25em;
+  }
+  .error p {
+    color: red;
+  }
+  @media all and (max-width: 500px) {
+    .error p {
+      font-size: x-small;
+    }
+  }

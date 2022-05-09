@@ -1,4 +1,17 @@
-.side-bar {
-  background-color: #393a44;
-  min-width: 200px;
+* {
+  margin: 0;
+  font-family: sans-serif;
+  color: rgb(25, 25, 79);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(155, 155, 220, 0.845);
+  background-position: center;
+}
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
 }

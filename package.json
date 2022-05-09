@@ -47,5 +47,11 @@
   },
   "keywords": [],
   "author": "Thinkful, Inc.",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "knex": "^1.0.7",
+    "lodash": "^4.17.21",
+    "pg": "^8.7.3"
+  }
 }
