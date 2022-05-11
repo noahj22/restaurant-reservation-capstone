@@ -182,7 +182,7 @@ export default function NewReservation({ loadDashboard, edit }) {
   }
 
   const errorsJSX = () => {
-    return errors.map((error, idx) => <ErrorAlert key={idx} error={error} />);
+    return errors.map((error, element) => <ErrorAlert key={element} error={error} />);
   };
 
   return (
