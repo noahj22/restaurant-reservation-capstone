@@ -16,7 +16,6 @@ jobs:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
           POSTGRES_DB: postgres
-          NODE_OPTIONS: NODE_OPTIONS = --openssl-legacy-provider
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
